@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <style>
+	a{color:black;text-decoration:none;}
+	a:hover{color:black;text-decoration:none;}
+	a:active{color:black;text-decoration:none;}
+	a:visited{color:black;text-decoration:none;}
+  </style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  		<a class="navbar-brand" href="index.php">WORLD TOUR</a>
+ 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+ 		</button>
+
+		
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="service.php">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.php">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.php">Contact</a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="srch">
+				<button class="btn btn-outline-warning my-2 my-sm-0" type="submit" id="clk">Search</button>
+			</form>
+		</div>
+	</nav>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="1.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>NEW YORK</h3>
+        <p>We had such a great time in New York!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="03.jpg" alt="Cannadian Mountains" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>CANADIAN MOUNTAINS</h3>
+        <p>Thank you, Cannada!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="21.jpg" alt="NewZealand" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>SYDNEY</h3>
+        <p>We love the Cityscape of the New zealand!</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<section class="my-5">
+	<div><a href="about.php">
+		<h1 class="text-center">About us</h1>
+		</a>
+	</div><br><br>
+	<div class="row">
+		<div class="col-lg-6 col-md-6 col-4">
+			<img src="4.jpg" class="img-fluid aboutimg">
+		</div>
+		<div class="col-lg-6 col-md-6 col-4">
+			<h2 class="display-4">WORLD TOUR</h2>
+			<p class="py-1">A World tour is an organized trip that people such as musicians, politicians, or theatre companies go on to several different countries and places, stopping to meet people or perform.Meeting people from other cultures will teach you that the way you've been looking at the world isn't the way everybody else does.Seeing the world for yourself will improve your vision and your grip on reality.We the World Tour team will give you suggestions of which country would be the best for your holiday.</p>
+			<a href="about.php" class="btn btn-warning">KNOW MORE</a>
+		</div>
+	</div>
+</section>
+
+<section class="my-5">
+	<div><a href="service.php">
+		<h1 class="text-center">Services</h1>
+		</a>
+	</div><br><br>
+
+  	<div class="row">
+  		<div class="col-lg-4 col-md-4 col-12">
+  			<div class="card">
+  <img class="card-img-top" src="1.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">New York nights</h4>
+    <p class="card-text">Wonderful sight</p>
+    <a href="ny.php" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+  		</div>
+  		<div class="col-lg-4 col-md-3 col-16">
+  			<div class="card">
+  <img class="card-img-top" src="03.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Canadian Mountains</h4>
+    <p class="card-text">Time for trekking</p>
+    <a href="cad.php" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+  		</div>
+  		<div class="col-lg-4 col-md-4 col-12">
+  			<div class="card">
+  <img class="card-img-top" src="21.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Cityscape of Sydney</h4>
+    <p class="card-text">What'a Cityscape!</p>
+    <a href="nz.php" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+  		</div>
+</section>
+
+<section class="my-5">
+	<div>
+		<h1 class="text-center">Gallery</h1>
+	</div><br><br>
+
+	<div class="row">
+  		<div class="col-lg-4 col-md-4 col-12">
+  			<img src="1.jpg" class="img-fluid pb-3">
+  		</div>
+  		<div class="col-lg-4 col-md-4 col-12">
+  			<img src="5.jpg" class="img-fluid pb-3">
+  		</div>
+  		<div class="col-lg-4 col-md-4 col-12">
+  			<img src="6.jpg" class="img-fluid pb-3">
+  		</div>
+  		<div class="col-lg-4 col-md-4 col-12">
+  			<img src="03.jpg" class="img-fluid pb-3">
+  		</div>
+  		<div class="col-lg-4 col-md-4 col-12">
+  			<img src="20.jpg" class="img-fluid pb-3">
+  		</div>
+  		<div class="col-lg-4 col-md-4 col-12">
+  			<img src="19.jpg" class="img-fluid pb-3" alt="19.jpg not working">
+  		</div>
+  		<div class="col-lg-4 col-md-4 col-12">
+  			<img src="21.jpg" class="img-fluid pb-3">
+  		</div>
+  		<div class="col-lg-4 col-md-4 col-12">
+  			<img src="7.jpg" class="img-fluid pb-3">
+  		</div>
+  		<div class="col-lg-4 col-md-4 col-12">
+  			<img src="22.jpg" class="img-fluid pb-3">
+  		</div>
+  	</div>
+  </section>
+
+<section class="my-5">
+	<div><a href="about.php">
+		<h1 class="text-center">Contact us</h1>
+		</a>
+	</div><br><br>
+	<div class="w-50 m-auto">
+		<form action="userinfo.php" method="post">
+			<div class="form-group">
+				<label>Username</label>
+				<input type="text" name="user" autocomplete="off" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>Email Id</label>
+				<input type="text" name="email" autocomplete="off" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>Phone Number</label>
+				<input type="text" name="phno" autocomplete="off" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>Comments</label>
+				<input type="text" name="comment" autocomplete="off" class="form-control">
+			</div>
+<button type="submit" class="btn btn-warning">Submit</button>
+		</form>
+	</div>
+</section>
+	<!-- footer -->
+            <div class="container">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <p class="col-md-4 mb-0 text-muted">© World Tour 2022 Company, Inc</p>
+
+                    <a href="index.php" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                    <img src="Footer-192x192.png" alt="World Tour Favicon" class="bi" width="50" height="50"><use xlink:href="#bootstrap"></use></img>
+                    </a>
+
+                    <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item"><a href="index.php" class="nav-link px-2 text-muted">Home</a></li>
+                    <li class="nav-item"><a href="service.php" class="nav-link px-2 text-muted">Services</a></li>
+                    <li class="nav-item"><a href="about.php" class="nav-link px-2 text-muted">About</a></li>
+                    <li class="nav-item"><a href="contact.php" class="nav-link px-2 text-muted">Contact</a></li>
+                </ul>
+                </footer>
+            </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="search.js"></script>
+
+
+
+
+	</body>
+	</html>
