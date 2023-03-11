@@ -1,22 +1,19 @@
-var arr=['New York','Cannadian Mountains', 'Sydney'];
-var key=document.getElementById('srch');
-var but=document.getElementById('clk');
+const searchBar = document.getElementById('searchBar');
+const searchButton = document.getElementById('searchButton');
+const results = document.getElementById('results');
 
-function search(){
- for(let i = 0; i < arr.length; i++){
-        if(arr.indexOf(Number(key.value))==-1){
-            window.open('index.php', '_blank');
-        }
-        else if(arr.indexOf(Number(key.value))=='New York'){
-            window.open('ny.php', '_blank');
-        }
-        else if(arr.indexOf(Number(key.value))=='Cannadian Mountains'){
-            window.open('cad.php', '_blank');
-        }
-        else if(arr.indexOf(Number(key.value))=='Sydney'){
-            window.open('nz.php', '_blank');
-        }
+searchButton.addEventListener('click', function() {
+  const searchTerm = searchBar.value.toLowerCase();
+  results.innerHTML = '';
+
+  // Perform search on the data source (in this case, an array of strings)
+  dataSource.forEach(function(item) {
+    if (item.toLowerCase().includes(searchTerm)) {
+      const li = document.createElement('li');
+      li.innerText = item;
+      results.appendChild(li);
     }
-}
+  });
+});
 
-but.addEventListener('click',search);
+const dataSource = ['New York', 'Cannada', 'Sydney'];
